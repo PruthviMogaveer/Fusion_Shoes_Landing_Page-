@@ -116,11 +116,11 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
+      { name: "Fusion Sports 1", link: "/" },
+      { name: "Air Fusion Max 1", link: "/" },
+      { name: "Sports Fusion Jordan 1", link: "/" },
+      { name: "Fusion Force 2", link: "/" },
+      { name: "Fusion Racer", link: "/" },
       { name: "Nike Cortez", link: "/" },
     ],
   },
@@ -137,8 +137,8 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "customer@fusion.com", link: "mailto:customer@fusion.com" },
+      { name: "+91 123567890", link: "tel:+91 123567890" },
     ],
   },
 ];

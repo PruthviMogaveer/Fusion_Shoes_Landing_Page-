@@ -10,7 +10,7 @@ const Subscribe = () => {
         Sign Up for<span className="text-coral-red"> Updates </span> &
         Newsletter
       </h3>
-      <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
+      <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full hover:border-black transition delay-150">
         <input
           type="text"
           placeholder="subscribe@fusion.com"

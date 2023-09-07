@@ -11,7 +11,7 @@ const SpecialOffers = () => {
           alt="special offer"
           width={773}
           height={687}
-          className="object-contain w-full"
+          className="object-contain w-full hover:scale-95 transition delay-150"
         />
       </div>
       <div className="flex flex-1 flex-col">
