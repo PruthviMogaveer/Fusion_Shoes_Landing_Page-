@@ -1,3 +1,5 @@
+import { thumbnailBackground } from "../../assets/images";
+
 const ShoeCard = ({ imgURL, changeBigShoeImg, bigShoeImg }) => {
   const handleClick = () => {
     if (bigShoeImg !== imgURL.bigShoe) {
@@ -17,7 +19,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImg, bigShoeImg }) => {
     >
       <div className="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4">
         <img
-          src="assets/images/thumbnail-background.svg"
+          src={thumbnail - thumbnailBackground}
           alt=""
           width={160}
           className="absolute z-0"
