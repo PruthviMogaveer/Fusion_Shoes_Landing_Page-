@@ -2,7 +2,7 @@ import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard";
 import { arrowRight } from "../../assets/icons";
 import { shoes, statistics } from "../constants";
-import { bigShoe1, thumbnailBackground } from "../../assets/images";
+import { bigShoe1, collectionbackground } from "../../assets/images";
 import { useState } from "react";
 
 const Hero = () => {
@@ -44,11 +44,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="max-xl:hidden relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
-        <img
-          src={collection - thumbnailBackground}
-          alt=""
-          className="absolute"
-        />
+        <img src={collectionbackground} alt="" className="absolute" />
         <img
           src={bigShoeImg}
           alt="shoe collection"
