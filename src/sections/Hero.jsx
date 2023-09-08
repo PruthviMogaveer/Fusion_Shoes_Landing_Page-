@@ -45,6 +45,11 @@ const Hero = () => {
       </div>
       <div className="max-xl:hidden relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center">
         <img
+          src="../../assets/images/collection-background.svg"
+          alt=""
+          className="absolute"
+        />
+        <img
           src={bigShoeImg}
           alt="shoe collection"
           width={610}
