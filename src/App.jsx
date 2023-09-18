@@ -9,14 +9,17 @@ import {
   Hero,
 } from "./sections";
 import Nav from "./components/Nav";
+import Fade from "react-reveal/Fade";
 
 const App = () => {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-l wide:padding-r padding-b">
-        <Hero />
-      </section>
+      <Fade duration={1200}>
+        <section className="xl:padding-l wide:padding-r padding-b">
+          <Hero />
+        </section>
+      </Fade>
       <section className="padding">
         <PopularProduct />
       </section>
