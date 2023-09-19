@@ -55,4 +55,7 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+  .max-lg-menu {
+    @apply flex-col z-10 absolute right-[-10px] pt-14 pr-[7rem] pl-5 border border-b-black top-0 justify-start items-start min-h-screen bg-white;
+  }
 }
