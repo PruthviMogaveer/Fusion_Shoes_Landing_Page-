@@ -18,8 +18,8 @@ const Nav = () => {
           />
         </a>
         <ul
-          className={`flex-1 flex justify-center items-center gap-16 ${
-            menuOpen ? `max-lg:max-lg-menu` : `max-lg:hidden`
+          className={`flex-1 flex justify-center items-center gap-16 max-lg:max-lg-menu transition duration-500 ease-in-out  ${
+            menuOpen ? `max-lg:translate-x-0` : `max-lg:translate-x-[100%]`
           }`}
         >
           {menuOpen && window.innerWidth < 1024 ? (
