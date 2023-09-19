@@ -18,7 +18,7 @@ const Nav = () => {
           />
         </a>
         <ul
-          className={`flex-1 flex justify-center items-center gap-16 max-lg:max-lg-menu transition duration-500 ease-in-out  ${
+          className={`flex-1 flex justify-center items-center gap-16 max-lg:max-lg-menu max-lg:transition max-lg:duration-500 max-lg:ease-in-out  ${
             menuOpen ? `max-lg:translate-x-0` : `max-lg:translate-x-[100%]`
           }`}
         >
